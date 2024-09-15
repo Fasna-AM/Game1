@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background:linear-gradient(135deg,rgb(211, 18, 211),rgb(136, 95, 136));
+   
+}
+html{
+font-size: 16px;
+}
+#head{
+    text-align: center;
+    position: relative;
+    top:15px;
+    font-size: 50px;
+}
+.game{
+    position: absolute;
+   
+    top: 15%;
+    left: 35%;
+}
+.game-body{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    
+}
+.optn{
+    background: white;
+    width: 22vmin;
+    height: 22vmin;
+    border-radius: 8px;
+    border: none;
+    font-size: 12vmin;
+    color: rgb(250, 5, 250);
+
+}
+#restart{
+    font-size: 1.3rem;
+    display: block;
+    margin: 1.5em ;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 35%;
+
+}
+.message{
+    background:linear-gradient(135deg,rgb(211, 18, 211),rgb(136, 95, 136));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 12vmin;
+}
+.hide{
+    display: none;
+
+}
+#msg{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+#new-btn{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
